@@ -21,5 +21,8 @@
     "project": "./tsconfig.json"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "rules": {}
+  "rules": {
+    "quotes": ["error", "double", { "avoidEscape": true }],
+    "@typescript-eslint/quotes": ["error", "double", { "avoidEscape": true }]
+  }
 }
